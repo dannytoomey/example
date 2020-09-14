@@ -15,8 +15,11 @@ def change_name():
     return new_hello.say_hi()
     # we use the same method here ('say_hi'), but when we do it
     # with the new 'say_hello' class, it will say 'hello Jordan'
-    # because that what it has stored for 'name'
+    # because that's what it has stored for 'name'
 
 if __name__ == "__main__":
     change_name()
     # this executes the function
+
+# If you type 'python change_name.py' into the terminal while in the directory 
+# for this file, it will print 'hello Jordan' in the console. 

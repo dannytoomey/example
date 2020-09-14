@@ -1,16 +1,16 @@
 # This class uses a 'name' attribute and returns 'Hello <name>' with the 'say_hi()' method
 class Hello():
-    # 'classes' are pieces of code that has attributes (properties they posess) 
+    # 'classes' are pieces of code that have attributes (properties they posess) 
     # and methods (things they can do)
     def __init__(self):
         # initialize the class and give it a name to say hi to
         self.name = 'Tom'
         # 'self' means that the class is referring to itself here. 
-        # if you only put 'name = 'Tom'' the script what not know 
+        # if you only put 'name = 'Tom'' the script will not know 
         # what the 'name' attribute is in reference to. 
 
     def say_hi(self):
-        # this is a method. here the anatomy of the method declaration: 
+        # this is a method. here is the anatomy of the method declaration: 
         # 'def' = define a function
         # 'say_hi' = the name the function
         # '(self)' = the inheritance of the function. inheritence is how you pass 
@@ -19,7 +19,9 @@ class Hello():
         # in order to work properly. 
         return print(f'hello {self.name}')
         # this is what the method does. here's the breakdown of what's going on:
-        # 'print' = print to the console (the terminal)
+        # 'return' = this tells the python to output whatever follows it. in this case, 
+        # the output goes to the terminal. it can also go other functions. 
+        # 'print' = prints to the console (the terminal)
         # 'f' = this tells python that i'm formatting the string 
         # with a variable i'm going to call in the string 
         # 'hello' = this is a string that will be printed

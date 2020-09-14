@@ -2,7 +2,7 @@
 
 This shows how to create a simple class that executes a command from the console, and how to use the class in another file.
 
-Files included
+Files included:
 - example.py
     - This shows how to create the class and execute its method from the command line.
 
