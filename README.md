@@ -1,6 +1,6 @@
-# Example with Python in Git
+# Python Basics
 
-This shows how to create a simple class that executes a command from the console, and how to use the class in another file.
+These exmaples start with some python basics, then show you how to create a simple class that executes a command from the console, and finally how to use the class in another file.
 
 Files included:
 - the_basics.py
