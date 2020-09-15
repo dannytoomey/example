@@ -1,3 +1,6 @@
+# Classes are how you create objects (things that can be interacted with)
+# in python. They're one of the most useful aspects python!
+
 # This class uses a 'name' attribute and returns 'Hello <name>' with the 'say_hi()' method
 class Hello():
     # 'classes' are pieces of code that have attributes (properties they posess) 
@@ -41,3 +44,5 @@ if __name__ == '__main__':
 
 # If you type 'python example.py' into the terminal while in the directory 
 # for this file, it will print 'hello Tom' in the console. 
+
+# Now move on to change_name.py to see how to use this class in another file. 
