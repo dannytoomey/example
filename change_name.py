@@ -1,9 +1,9 @@
 # Let's use the function again, but this time say hello to Jordan.
 
 # by importing the Hello class, we avoid having to start from scratch
-from example import Hello
+from say_hello import Hello
 # this can be read as: 
-# from the file 'example' import the class 'Hello'
+# from the file 'say_hello' import the class 'Hello'
 
 def change_name():
     # now, instead of writing a whole new class, 
