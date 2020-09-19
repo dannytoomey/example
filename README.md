@@ -5,6 +5,11 @@ These exmaples start with some python basics, then show you how to create a simp
 Files included:
 - the_basics.py
     - This shows you a few key basics of using python. 
+    - Full introductory courses can be found here:
+        - https://pythonprogramming.net/
+            - Free, comprehensive, and very helpful.
+        - https://www.udemy.com/course/complete-python-bootcamp/
+            - $16 but shows you exactly how everything works. I took this course and I would highly recommend it. 
 
 - say_hello.py
     - This shows how to create a class and execute a method from the command line.
